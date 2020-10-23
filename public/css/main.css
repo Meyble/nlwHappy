@@ -1,0 +1,36 @@
+/*css global*/
+/*aqui eu coloco estilos universair para o meu documento*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*a # antes do elemento significa q estou pegando o elemento pelo id la do html*/
+body {
+  height: 100vh;
+  color: white;
+  background: #EBF2F5;
+}
+/*aqui ele pega a tag root do meu documento html, ou seja ele coloca o stylo no <hmtl></html>*/
+/*eu uso esse logica para deixar as fontes responsivas*/
+:root {
+  /*aqui eu coloco a fonte em 10px, pois 100 = a 16px, logo 62.5 = a 10px*/
+  font-size: 62.5%;
+}
+
+body,
+input,
+button,
+textarea {
+  font-weight: 400;
+  /*se o font-size do root é 10px, logo, 1.8 rem é igual a 18px*/
+  font-size: 1.8rem;
+  line-height: 1;
+
+  font-family: "Nunito", sans-serif;
+}
+
+
+
+
